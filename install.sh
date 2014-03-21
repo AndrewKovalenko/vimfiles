@@ -3,7 +3,10 @@ default_bundles=(
   ack.vim
   actionscript.vim
   applescript.vim
+  autocomplpop.vim
   browser-refresh.vim
+  bufexplorer
+  Command-T
   cocoa.vim
   gist-vim
   jade.vim

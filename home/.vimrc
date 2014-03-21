@@ -38,7 +38,8 @@ set smarttab
 set expandtab
 set nowrap
 set list
-set listchars=tab:▸\ ,eol:¬,trail:·
+set listchars=tab:▸\
+" ,eol:¬,trail:·
 set foldlevelstart=0
 set foldmethod=marker
 set formatoptions=tcq
