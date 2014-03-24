@@ -20,7 +20,7 @@ F/ peops, double check, but you most likely already have the basic requirements 
 
 To install the files and default configuration run the following:
 
-    homesick clone git@github.com:factorylabs/vimfiles.git
+    homesick clone https://github.com/AndrewKovalenko/vimfiles.git
     cd ~/.homesick/repos/vimfiles
     bash install.sh
     homesick symlink vimfiles -f
