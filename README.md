@@ -8,6 +8,7 @@ The default configuration files for Vim used by myself. Tuned to play with [Vim]
 2. *Command-T* replaced with [CtrlP](https://github.com/kien/ctrlp.vim)
 3. Changed some javascript snipets to make them compatible with [autocomplpop](https://github.com/vim-scripts/AutoComplPop)
 4. [Autocomplpop](https://github.com/vim-scripts/AutoComplPop) added to plugins installed by default
+5. Added shortcuts for Ctrl-x, Ctrl-c and Ctrl-v
 
 ## To Get The Full Effect
 
