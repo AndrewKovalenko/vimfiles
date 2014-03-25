@@ -112,6 +112,11 @@ nnoremap ; :
 inoremap jj <ESC>
 inoremap jk <Esc>
 
+" Clipboard shortcuts
+vnoremap <C-x> "+x
+vnoremap <C-c> "+y
+map <C-v> "+gP
+
 " Move between splits
 map <C-h> <C-w>h
 map <C-j> <C-w>j
