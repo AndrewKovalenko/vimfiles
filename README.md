@@ -1,4 +1,5 @@
-# F/ Vim Configuration
+# A/ Vim Configuration
+#### This is a fork of [F/ Vim Configuration](https://github.com/factorylabs/vimfiles)
 
 The default configuration files for Vim used at F/. Tuned to play nice with [MacVim][macvim] but works with most \*nix environments. Setup using [homesick][homesick] for that symlinkn' goodness.
 
