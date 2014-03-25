@@ -1,6 +1,3 @@
-[submodule "home/.vim/bundle_storage/bufexplorer"]
-	path = home/.vim/bundle_storage/bufexplorer
-	url = https://github.com/corntrace/bufexplorer.git 
 [submodule "home/.vim/bundle_storage/ack.vim"]
 	path = home/.vim/bundle_storage/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
