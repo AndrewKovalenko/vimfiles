@@ -6,8 +6,8 @@ default_bundles=(
   autocomplpop.vim
   browser-refresh.vim
   bufexplorer
-  Command-T
   cocoa.vim
+  ctrlp.vim
   gist-vim
   jade.vim
   json.vim
