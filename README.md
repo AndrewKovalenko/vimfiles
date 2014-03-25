@@ -2,6 +2,11 @@
 
 The default configuration files for Vim used at F/. Tuned to play nice with [MacVim][macvim] but works with most \*nix environments. Setup using [homesick][homesick] for that symlinkn' goodness.
 
+## Main changes
+1. Added [bufexplorer](https://github.com/jlanzarotta/bufexplorer)
+2. *Command-T* replaced with [CtrlP](https://github.com/kien/ctrlp.vim)
+3. Changed some javascript snipets to make them compatible with [autocomplpop](https://github.com/vim-scripts/AutoComplPop)
+4. [Autocomplpop](https://github.com/vim-scripts/AutoComplPop) added to plugins installed by default
 
 ## To Get The Full Effect
 
