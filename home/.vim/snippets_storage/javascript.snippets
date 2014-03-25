@@ -4,8 +4,8 @@ snippet proto
 	${1:class_name}.prototype.${2:method_name} = function(${3:first_argument}) {
 		${4:// body...}
 	};
-snippet fun
-	function ${1:function_name}(${2:argument}) {
+snippet sfun
+	function ${1:function_name}(${2:parameters}) {
 		${3:// body...}
 	}
 snippet anon
@@ -17,7 +17,7 @@ snippet fa
 		${1:// body}
 	}
 snippet vf
-	var ${1:var_name} = function(${2:argument}) {
+	var ${1:var_name} = function(${2:parameters}) {
 		${3:// body...}
 	};
 snippet f
