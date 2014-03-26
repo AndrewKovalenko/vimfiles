@@ -1,7 +1,14 @@
-# F/ Vim Configuration
+# A/ Vim Configuration
+#### This is a fork of [F/ Vim Configuration](https://github.com/factorylabs/vimfiles)
 
-The default configuration files for Vim used at F/. Tuned to play nice with [MacVim][macvim] but works with most \*nix environments. Setup using [homesick][homesick] for that symlinkn' goodness.
+The default configuration files for Vim used by myself. Tuned to play with [Vim][vim] on [Ubuntu][ubuntu] but, according to comments of F/ works with [MacVim][macvim] as well. Setup using [homesick][homesick] for that symlinkn' goodness.
 
+## Main changes
+1. Added [bufexplorer](https://github.com/jlanzarotta/bufexplorer)
+2. *Command-T* replaced with [CtrlP](https://github.com/kien/ctrlp.vim)
+3. Changed some javascript snipets to make them compatible with [autocomplpop](https://github.com/vim-scripts/AutoComplPop)
+4. [Autocomplpop](https://github.com/vim-scripts/AutoComplPop) added to plugins installed by default
+5. Added shortcuts for Ctrl-x, Ctrl-c and Ctrl-v
 
 ## To Get The Full Effect
 
@@ -119,8 +126,11 @@ The [install script][install.sh] created initial symbolic links for the plug-ins
 - [ack.vim](https://github.com/mileszs/ack.vim/blob/master/doc/ack.txt)
 - [actionscript.vim](https://github.com/vim-scripts/actionscript.vim--Leider)
 - [applescript.vim](https://github.com/vim-scripts/applescript.vim)
+- [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt)
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
+- [bufexplorer](https://github.com/jlanzarotta/bufexplorer/blob/master/doc/bufexplorer.txt)
 - [cocoa.vim](https://github.com/msanders/cocoa.vim/blob/master/doc/cocoa.txt)
+- [ctrlp](https://github.com/kien/ctrlp.vim/blob/master/doc/ctrlp.txt)
 - [gist-vim](https://github.com/mattn/gist-vim)
 - [jade.vim](https://github.com/vim-scripts/jade.vim)
 - [json.vim](https://github.com/vim-scripts/JSON.vim)
@@ -151,14 +161,12 @@ The [install script][install.sh] created initial symbolic links for the plug-ins
 
 These are the additional plug-ins included, but are not required. They are not linked to the `bundle` directory out of the box. If adding any of these, make sure to read the docs on their usage and what variables/settings may be required in `.vimrc.local`
 
-- [argtextobj.vim](https://github.com/vim-scripts/argtextobj.vim) - Motion commands for manipulating function arguments \*\*
-- [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
-- [autocorrect.vim](https://github.com/vim-scripts/autocorrect.vim) - Corrects misspellings as you type i.e. teh -> the \*\*
+- [argtextobj.vim](https://github.com/vim-scripts/argtextobj.vim) - Motion commands for manipulating function arguments 
+- [autocorrect.vim](https://github.com/vim-scripts/autocorrect.vim) - Corrects misspellings as you type i.e. teh -> the 
 - [bufkill.vim](https://github.com/vim-scripts/bufkill.vim) - Unload, delete or wipe a buffer
 - [camelcasemotion](https://github.com/vim-scripts/camelcasemotion/blob/master/doc/camelcasemotion.txt) - Motion commands for moving between camelCase or words\_with\_underscores \*\*
 - [clang-complete](https://github.com/Rip-Rip/clang_complet://github.com/Rip-Rip/clang_complete) - Use clang for completing C/C++ code.
 - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
-- [Command-T](http://www.url.com/) - Just like TextMate
 - [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
 - [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
@@ -177,7 +185,7 @@ These are the additional plug-ins included, but are not required. They are not l
 
 ## Snippets
 
-By default all of the snippet files stored within `snippets_storage` are symlinked into the `snippets` directory. These cover most of the languages used at F/. To see the available snippets for a given file type hit `<F5>`, a snippet is triggered using `<tab>`.
+By default all of the snippet files stored within `snippets_storage` are symlinked into the `snippets` directory. These cover most of the languages used by myself. To see the available snippets for a given file type hit `<F5>`, a snippet is triggered using `<tab>`.
 
 Certain file types like JavaScript have hundreds of snippets based on the native language and various libraries. This can become unmanageable pretty quickly. The solution is to breakout specific libraries into their own files. For example `javascript-jasmine.snippets` where it needs to be named as `language-library.snippets`. Since snippets are saved in the `snippets_storage` directory, you can be selective about what gets a symbolic link within the `snippets` directory.
 
