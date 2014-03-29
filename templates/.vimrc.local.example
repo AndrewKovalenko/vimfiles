@@ -12,6 +12,8 @@
  let g:RefreshRunningBrowserDefault = 'chrome'
  let g:snips_author = 'Andrii Kovalenko'
 
+" Enable 256 colors
+ set t_Co=256
 
 " User key mapping
 " -----------------------------------------------------------------------------
@@ -32,7 +34,8 @@
 " User themes and GUI settings
 " -----------------------------------------------------------------------------
 
- colorscheme colorblind
+ colorscheme jellybeans
+" colorscheme colorblind
 " colorscheme bloodshot
 " colorscheme cataracts
 " colorscheme snowblind
@@ -46,4 +49,3 @@ if has('gui_running')
     set transparency=5
   end
 endif
-
