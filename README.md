@@ -9,6 +9,7 @@ The default configuration files for Vim used by myself. Tuned to play with [Vim]
 3. Changed some javascript snipets to make them compatible with [autocomplpop](https://github.com/vim-scripts/AutoComplPop)
 4. [Autocomplpop](https://github.com/vim-scripts/AutoComplPop) added to plugins installed by default
 5. Added shortcuts for Ctrl-x, Ctrl-c and Ctrl-v
+6. Added [jellybeans](https://github.com/nanotech/jellybeans.vim) color scheme
 
 ## To Get The Full Effect
 
