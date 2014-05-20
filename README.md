@@ -128,7 +128,7 @@ The [install script][install.sh] created initial symbolic links for the plug-ins
 - [actionscript.vim](https://github.com/vim-scripts/actionscript.vim--Leider)
 - [applescript.vim](https://github.com/vim-scripts/applescript.vim)
 - [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt)
-- [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
+- [browser-refresh.vim](https://github.com/AndrewKovalenko/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
 - [bufexplorer](https://github.com/jlanzarotta/bufexplorer/blob/master/doc/bufexplorer.txt)
 - [cocoa.vim](https://github.com/msanders/cocoa.vim/blob/master/doc/cocoa.txt)
 - [ctrlp](https://github.com/kien/ctrlp.vim/blob/master/doc/ctrlp.txt)
