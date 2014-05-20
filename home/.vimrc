@@ -154,7 +154,7 @@ vmap <C-Down> ]egv
 
 " Leader mapping
 " -----------------------------------------------------------------------------
-map <leader>a :Ack
+map <leader>a :Ack<Space>
 
 " Toggle wrapping in the current buffer
 nmap <silent> <leader>wt :set wrap!<cr>
