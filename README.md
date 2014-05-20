@@ -34,7 +34,6 @@ To install the files and default configuration run the following:
     bash install.sh
     homesick symlink vimfiles -f
 
-\* If you don't have commit rights use `homesick clone https://github.com/factorylabs/vimfiles.git`
 
 This will install the default configuration files/directories, submodules, and create symbolic links for bundles and snippets. Most of the heavy lifting is done by the [install script][install.sh].
 
