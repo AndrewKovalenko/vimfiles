@@ -16,9 +16,6 @@
 [submodule "home/.vim/bundle_storage/autocorrect.vim"]
 	path = home/.vim/bundle_storage/autocorrect.vim
 	url = https://github.com/vim-scripts/autocorrect.vim.git
-[submodule "home/.vim/bundle_storage/browser-refresh.vim"]
-	path = home/.vim/bundle_storage/browser-refresh.vim
-	url = https://github.com/mkitt/browser-refresh.vim.git
 [submodule "home/.vim/bundle_storage/bufkill.vim"]
 	path = home/.vim/bundle_storage/bufkill.vim
 	url = https://github.com/vim-scripts/bufkill.vim.git
