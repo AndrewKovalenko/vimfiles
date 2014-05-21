@@ -142,3 +142,6 @@
 [submodule "home/.vim/bundle_storage/ctrlp.vim"]
 	path = home/.vim/bundle_storage/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "home/.vim/bundle_storage/browser-refresh.vim"]
+	path = home/.vim/bundle_storage/browser-refresh.vim
+	url = https://github.com/AndrewKovalenko/browser-refresh.vim.git
