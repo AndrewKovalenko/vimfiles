@@ -11,6 +11,7 @@ filetype plugin indent on
 
 " Preferences
 " -----------------------------------------------------------------------------
+set autochdir
 set modelines=0
 set encoding=utf-8
 set scrolloff=3
@@ -72,6 +73,8 @@ command! -nargs=* Wrap set wrap linebreak nolist
 
 " Plugin configurations
 " -----------------------------------------------------------------------------
+let NERDTreeShowHidden=1
+let NERDTreeChDirMode=2
 let NERDSpaceDelims=1
 let NERDTreeIgnore=['.DS_Store']
 let g:syntastic_enable_signs=1
@@ -113,9 +116,9 @@ inoremap jj <ESC>
 inoremap jk <Esc>
 
 " Clipboard shortcuts
-vnoremap <C-x> "+x
-vnoremap <C-c> "+y
-map <C-v> "+gP
+" vnoremap <C-x> "+x
+" vnoremap <rCc> "+y
+" map <C-v> "+gP
 
 " Move between splits
 map <C-h> <C-w>h
@@ -154,7 +157,13 @@ vmap <C-Down> ]egv
 
 " Leader mapping
 " -----------------------------------------------------------------------------
-map <leader>a :Ack<Space>
+" Find usage
+noremap <leader>fu :/<c-r>=expand("<cword>") <cr><cr>
+noremap <leader>a :Ack<Space>
+noremap <leader>ac :Ack<Space><c-r>=expand("<cword>") <cr><cr>
+
+" Open folder
+noremap <leader>of :NERDTree<Space>
 
 " Toggle wrapping in the current buffer
 nmap <silent> <leader>wt :set wrap!<cr>
@@ -208,9 +217,9 @@ endfunction
 
 " Enable browser refreshing on web languages
 function! s:setBrowserEnv()
-  if has('mac')
+  " if has('mac')
     map <buffer> <silent><leader>r :RRB<cr>
-  endif
+  " endif
 endfunction
 
 " Sort CSS selectors and allow for browser refresh
@@ -333,4 +342,3 @@ endif
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
-
