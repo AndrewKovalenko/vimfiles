@@ -308,6 +308,7 @@ This allows you to make changes directly in your submodule, see the effects and 
 All licensing for the Bundles/Plug-ins should be found in their respective repositories. Anything written by F/ is of course open source through MIT. While contributions are welcome, you're probably better off forking and tuning it to your own machine.
 
 Copyright (c) 2011 by Factory Design Labs
+Copyright (c) 2013 by Andrew Kovalenko
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
