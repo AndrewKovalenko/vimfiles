@@ -12,8 +12,8 @@ The default configuration files for Vim used by myself. Tuned to play with [Vim]
 6. Added [jellybeans](https://github.com/nanotech/jellybeans.vim) color scheme
 7. Added "introduce variable" refactoring command 
 8. Replace original "browser-refresh" plugin with my own fork, which works on Mac
-9. Add shortcut <leader> f-u to highlight usage of current word
-10. Add shortcut <leader> a-c to find current word usage in all files of current work dierctory
+9. Add shortcut `<leader> f-u` to highlight usage of current word
+10. Add shortcut `<leader> a-c` to find current word usage in all files of current work dierctory
 
 ## To Get The Full Effect
 
