@@ -3,14 +3,17 @@
 
 The default configuration files for Vim used by myself. Tuned to play with [Vim][vim] on [Ubuntu][ubuntu] but, according to comments of F/ works with [MacVim][macvim] as well. Setup using [homesick][homesick] for that symlinkn' goodness.
 
-## Base changes
+## Basic changes
 1. Added [bufexplorer](https://github.com/jlanzarotta/bufexplorer)
 2. *Command-T* replaced with [CtrlP](https://github.com/kien/ctrlp.vim)
 3. Changed some javascript snipets to make them compatible with [autocomplpop](https://github.com/vim-scripts/AutoComplPop)
 4. [Autocomplpop](https://github.com/vim-scripts/AutoComplPop) added to plugins installed by default
-5. Added shortcuts for Ctrl-x, Ctrl-c and Ctrl-v
+5. Added shortcuts for Ctrl-x, Ctrl-c and Ctrl-v (for Linux only!)
 6. Added [jellybeans](https://github.com/nanotech/jellybeans.vim) color scheme
 7. Added "introduce variable" refactoring command 
+8. Replace original "browser-refresh" plugin with my own fork, which works on Mac
+9. Add shortcut <leader> f-u to highlight usage of current word
+10. Add shortcut <leader> a-c to find current word usage in all files of current work dierctory
 
 ## To Get The Full Effect
 
