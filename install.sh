@@ -26,6 +26,7 @@ default_bundles=(
   vim-fugitive
   vim-haml
   vim-javascript
+  vim-jsx
   vim-markdown
   vim-rails
   vim-ruby
