@@ -47,6 +47,7 @@ mkdir -p $full_path/home/.vim/spell
 
 echo "Setting up default vimrc.local..."
 cp $full_path/templates/.vimrc.local.example $full_path/home/.vimrc.local
+cp $full_path/templates/.gvimrc $full_path/home/.gvimrc
 
 echo "Initializing submodules..."
 git submodule init
