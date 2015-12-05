@@ -207,7 +207,7 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 map <silent><leader>lc :lcl<cr>
 
 " JSDoc
-map <leader>d :JsDoc<C-r>
+nmap <leader>d :JsDoc<cr>
 
 " Refactoring mappings -------------------------------------------------------
 
