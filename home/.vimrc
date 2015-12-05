@@ -206,7 +206,10 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Closes the window showing the location list from sytastic errors
 map <silent><leader>lc :lcl<cr>
 
-" Refactoring mappings ==------------------------------------------------------
+" JSDoc
+map <leader>d :JsDoc<C-r>
+
+" Refactoring mappings -------------------------------------------------------
 
 " Introduce variable
 map <leader>iv O<C-r>. = <C-r>"<Esc>
