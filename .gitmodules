@@ -1,9 +1,3 @@
-[submodule "home/.vim/bundle_storage/vim-jsdoc"]
-  path = home/.vim/bundle_storage/vim-jsdoc
-  url = https://github.com/heavenshell/vim-jsdoc.git
-[submodule "home/.vim/bundle_storage/vim-jsx"]
-  path = home/.vim/bundle_storage/vim-jsx
-  url = https://github.com/mxw/vim-jsx.git
 [submodule "home/.vim/bundle_storage/ack.vim"]
   path = home/.vim/bundle_storage/ack.vim
   url = https://github.com/mileszs/ack.vim.git
@@ -151,3 +145,9 @@
 [submodule "home/.vim/bundle_storage/browser-refresh.vim"]
   path = home/.vim/bundle_storage/browser-refresh.vim
   url = https://github.com/AndrewKovalenko/browser-refresh.vim.git
+[submodule "home/.vim/bundle_storage/vim-jsdoc"]
+	path = home/.vim/bundle_storage/vim-jsdoc
+	url = https://github.com/heavenshell/vim-jsdoc.git
+[submodule "home/.vim/bundle_storage/vim-jsx"]
+	path = home/.vim/bundle_storage/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
