@@ -44,7 +44,7 @@
 " User GUI specific settings (could be in .gvimrc.local)
 " -----------------------------------------------------------------------------
 if has('gui_running')
-  set guifont=MesloLGM:h12
+  set guifont=Menlo\ Regular:h12
   if has('gui_macvim')
     set transparency=5
   end

@@ -77,6 +77,7 @@ let NERDTreeShowHidden=1
 let NERDTreeChDirMode=2
 let NERDSpaceDelims=1
 let NERDTreeIgnore=['.DS_Store']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_disabled_filetypes = ['scss']
@@ -205,7 +206,10 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Closes the window showing the location list from sytastic errors
 map <silent><leader>lc :lcl<cr>
 
-" Refactoring mappings ==------------------------------------------------------
+" JSDoc
+nmap <leader>d :JsDoc<cr>
+
+" Refactoring mappings -------------------------------------------------------
 
 " Introduce variable
 map <leader>iv O<C-r>. = <C-r>"<Esc>
