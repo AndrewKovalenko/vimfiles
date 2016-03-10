@@ -151,3 +151,6 @@
 [submodule "home/.vim/bundle_storage/vim-jsx"]
 	path = home/.vim/bundle_storage/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "home/.vim/bundle_storage/vim-airline"]
+	path = home/.vim/bundle_storage/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
