@@ -29,6 +29,7 @@ default_bundles=(
   vim-javascript
   vim-jsx
   vim-jsdoc
+  vim-less
   vim-markdown
   vim-rails
   vim-ruby
