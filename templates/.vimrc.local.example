@@ -7,6 +7,7 @@
 
 " User plugin configurations
 " -----------------------------------------------------------------------------
+ let g:jsx_ext_required = 0
  let g:yankring_history_dir=$HOME.'/.vim/tmp/yankring/'
 " let g:MarkdownPreviewUserStyles=$HOME.'/path/to/user/styles/'
  let g:RefreshRunningBrowserDefault = 'chrome'
