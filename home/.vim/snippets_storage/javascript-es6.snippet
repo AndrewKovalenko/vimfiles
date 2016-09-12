@@ -1,0 +1,28 @@
+#  Basic ES6 snippets
+# -----------------------------------------------------------------------------
+snippet imp
+	import ${1:api} from '${2:module}';
+snippet cf
+	const ${1:const_name} = function(${2:parameters}) {
+		${3:// body...}
+	};
+snippet lf
+	let ${1:var_name} = function(${2:parameters}) {
+		${3:// body...}
+	};
+snippet class
+	class ${1:class_name}{
+		constructor(${2:params}){
+			${3:constructor_body}
+		}
+	};
+snippet iclass
+	class ${1:class_name} extends ${2:parent}{
+		constructor(${3:params}){
+			${4:constructor_body}
+		}
+	};
+snippet let
+	let ${1:name} = ${2:value};
+snippet const
+	const ${1:name} = ${2:value};
