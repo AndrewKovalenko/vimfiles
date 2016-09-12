@@ -7,9 +7,9 @@ snippet nfun
 		${3:// body...}
 	}
 snippet iife
-	(function() {
-		${1:// body}
-	}());
+	(function(${1:params)) {
+		${3:// body}
+	}(${2:args}));
 snippet fa
 	function() {
 		${1:// body}
