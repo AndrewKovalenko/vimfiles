@@ -8,6 +8,7 @@ default_bundles=(
   bufexplorer
   cocoa.vim
   ctrlp.vim
+  editorconfig-vim
   gist-vim
   jade.vim
   json.vim
