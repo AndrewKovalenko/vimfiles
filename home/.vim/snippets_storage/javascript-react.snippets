@@ -1,0 +1,53 @@
+#  Basic ReactJs snippets
+# -----------------------------------------------------------------------------
+snippet rcomp
+	import React from 'react';
+
+	export default ${1:component_name} extends React.Component {
+		render(){
+			${2:render_implementation}
+		}
+	}
+
+snippet cdm
+	componentDidMount(){
+		${1:body}
+	}
+
+snippet cwm
+	componentWillMount(){
+		${1:body}
+	}
+
+snippet cwum
+	componentWillUnmount(){
+		${1:body}
+	}
+
+snippet cwrp
+	componentWillReceiveProps(){
+		${1:body}
+	}
+
+snippet shcu
+	shouldComponentUpdate(){
+		${1:body}
+	}
+
+snippet cwu
+	componentWillUpdate(){
+		${1:body}
+	}
+
+snippet cdu
+	componentDidUpdate(){
+		${1:body}
+	}
+
+snippet tsetState
+	this.setState({
+		${1:new_state}
+	});
+
+snippet tstate
+	this.state
