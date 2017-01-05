@@ -157,9 +157,9 @@
 [submodule "home/.vim/bundle_storage/vim-less"]
 	path = home/.vim/bundle_storage/vim-less
 	url = https://github.com/groenewege/vim-less.git
-[submodule "home/.vim/bundle_storage/editorconfig-vim"]
-	path = home/.vim/bundle_storage/editorconfig-vim
-	url = git@github.com:editorconfig/editorconfig-vim.git
 [submodule "home/.vim/bundle_storage/vim-slime"]
 	path = home/.vim/bundle_storage/vim-slime
-	url = git@github.com:jpalardy/vim-slime.git
+	url = https://github.com/jpalardy/vim-slime.git
+[submodule "home/.vim/bundle_storage/editorconfig-vim"]
+	path = home/.vim/bundle_storage/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
