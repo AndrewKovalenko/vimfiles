@@ -163,3 +163,6 @@
 [submodule "home/.vim/bundle_storage/editorconfig-vim"]
 	path = home/.vim/bundle_storage/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "home/.vim/bundle_storage/elm.vim"]
+	path = home/.vim/bundle_storage/elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git

@@ -9,6 +9,7 @@ default_bundles=(
   cocoa.vim
   ctrlp.vim
   editorconfig-vim
+  elm.vim
   gist-vim
   jade.vim
   json.vim

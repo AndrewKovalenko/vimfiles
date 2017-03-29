@@ -341,6 +341,11 @@ if has('title') && (has('gui_running') || &title)
   set titlestring+=\ -\ %{substitute(getcwd(),\ $HOME,\ '~',\ '')} " working directory
 endif
 
+" Elm
+nnoremap <leader>el :ElmEvalLine<CR>
+vnoremap <leader>es :<C-u>ElmEvalSelection<CR>
+nnoremap <leader>emc :ElmMakeCurrentFile<CR>
+nnoremap <leader>emm :ElmMakeMain<CR>
 
 " !- See the statusline plugin for status line settings...
 
