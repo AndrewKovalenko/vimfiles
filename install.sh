@@ -39,6 +39,7 @@ default_bundles=(
   vim-slime
   vim-unimpaired
   vim-surround
+  vim-xo
   yankring
 )
 
