@@ -169,3 +169,6 @@
 [submodule "home/.vim/bundle_storage/vim-xo"]
 	path = home/.vim/bundle_storage/vim-xo
 	url = https://github.com/sindresorhus/vim-xo.git
+[submodule "home/.vim/bundle_storage/indentLine"]
+	path = home/.vim/bundle_storage/indentLine
+	url = https://github.com/Yggdroot/indentLine.git

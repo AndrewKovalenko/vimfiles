@@ -10,6 +10,7 @@ default_bundles=(
   ctrlp.vim
   editorconfig-vim
   elm.vim
+  indentLine
   gist-vim
   jade.vim
   json.vim
