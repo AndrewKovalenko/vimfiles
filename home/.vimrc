@@ -309,7 +309,7 @@ endif
 
 syntax on
 set background=dark
-colorscheme anrg
+colorscheme colorblind
 
 " GUI specific settings (could be in .gvimrc)
 " -----------------------------------------------------------------------------
