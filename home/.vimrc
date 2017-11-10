@@ -73,7 +73,7 @@ command! -nargs=* Wrap set wrap linebreak nolist
 
 " Plugin configurations
 " -----------------------------------------------------------------------------
-let g:deoplete#enable_at_startup = 1
+" let g:deoplete#enable_at_startup = 1
 let NERDTreeShowHidden=1
 let NERDTreeChDirMode=2
 let NERDSpaceDelims=1
@@ -309,8 +309,7 @@ endif
 
 syntax on
 set background=dark
-colorscheme colorblind
-
+colorscheme anrg
 
 " GUI specific settings (could be in .gvimrc)
 " -----------------------------------------------------------------------------
