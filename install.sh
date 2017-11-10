@@ -27,6 +27,7 @@ default_bundles=(
   vim-airline
   vim-coffee-script
   vim-cucumber
+  vim-elixir
   vim-fugitive
   vim-haml
   vim-javascript
