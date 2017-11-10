@@ -73,6 +73,7 @@ command! -nargs=* Wrap set wrap linebreak nolist
 
 " Plugin configurations
 " -----------------------------------------------------------------------------
+let g:deoplete#enable_at_startup = 1
 let NERDTreeShowHidden=1
 let NERDTreeChDirMode=2
 let NERDSpaceDelims=1

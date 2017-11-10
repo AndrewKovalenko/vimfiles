@@ -178,3 +178,6 @@
 [submodule "home/.vim/bundle_storage/alchemist.vim"]
 	path = home/.vim/bundle_storage/alchemist.vim
 	url = https://github.com/slashmili/alchemist.vim.git
+[submodule "home/.vim/bundle_storage/deoplete.nvim"]
+	path = home/.vim/bundle_storage/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git

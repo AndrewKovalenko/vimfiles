@@ -9,6 +9,7 @@ default_bundles=(
   bufexplorer
   cocoa.vim
   ctrlp.vim
+  deoplete.nvim
   editorconfig-vim
   elm.vim
   indentLine
