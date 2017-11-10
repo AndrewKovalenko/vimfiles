@@ -2,6 +2,7 @@
 default_bundles=(
   ack.vim
   actionscript.vim
+  alchemist.vim
   applescript.vim
   autocomplpop.vim
   browser-refresh.vim
