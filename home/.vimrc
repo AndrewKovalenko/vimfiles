@@ -153,6 +153,9 @@ nmap gV `[v`]
 nmap <C-Up> [e
 nmap <C-Down> ]e
 
+" Close Tab
+noremap <leader>ct :tabclose<cr>
+
 " Bubble multiple lines (requires unimpaired.vim)
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
