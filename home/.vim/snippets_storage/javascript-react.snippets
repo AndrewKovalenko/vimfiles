@@ -9,6 +9,15 @@ snippet rcomp
 		}
 	}
 
+snippet rarrow
+	import React from 'react';
+
+	const ${1:component_name} = (${2:params}) => {
+		${3:// body}
+	};
+
+	export default ${1:component_name}
+
 snippet cdm
 	componentDidMount(){
 		${1:body}
@@ -44,10 +53,10 @@ snippet cdu
 		${1:body}
 	}
 
-snippet tsetState
+snippet sst
 	this.setState({
 		${1:new_state}
 	});
 
-snippet tstate
+snippet stt
 	this.state
